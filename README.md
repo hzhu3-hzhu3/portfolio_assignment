@@ -20,7 +20,7 @@ This portfolio website is built using Create React App and leverages the UI comp
 ### Development
 1. Clone the repository:
    ```
-   git clone <your-repo-url>
+   git clone [<https://github.com/hzhu3-hzhu3/portfolio_assignment.git>]
    cd portfolio-site
    ```
 2. Install dependencies:
@@ -40,11 +40,11 @@ This portfolio website is built using Create React App and leverages the UI comp
    ```
 2. Build the Docker image:
    ```
-   docker build -t Zhu_Gloria_coding_assignment14 .
+   docker build -t zhu_haiqiao_coding_assignment14 .
    ```
 3. Run the Docker container (mapping host port 5575 to container port 80):
    ```
-   docker run -d --name Zhu_Gloria_coding_assignment14 -p 5575:80 Zhu_Gloria_coding_assignment14
+   docker run -d --name zhu_haiqiao_coding_assignment14 -p 5575:80 Zhu_Gloria_coding_assignment14
    ```
 4. Access the site at [http://localhost:5575](http://localhost:5575).
 
